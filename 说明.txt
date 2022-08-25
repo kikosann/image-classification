@@ -1,0 +1,7 @@
+训练运行train.py，通过argparse设置参数；
+测试部分写在./resnet18,best_acc=0.927/植苗分类(resnet18最终测试版本).ipynb
+训练结果保存在./resnet18,best_acc=0.927/result.csv
+训练好的权重保存在./resnet18,best_acc=0.927/model_state_dict_epoch.pt
+resnet18、vgg11、se_resnet18三个模型的实验分别在根目录的两个常用网络结构实现.ipynb中
+对超参数优化、数据增强的实验在./resnet18,best_acc=0.927/植苗分类(resnet18迁移学习).ipynb中
+实验均在google colab中实现，并将部分结果保存在ipynb文件中。
